@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">Appointment Manager</a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center">Book an Appointment</h1>
+        <div class="card mx-auto" style="max-width: 600px;">
+            <div class="container mt-5">
+                <h1 class="text-bg-success active w-40">Services</h1>
+                <div class="container col-lg-10">
+                    <a href="https://tharun-26.github.io/MovieBookingApplication/" class="btn btn-outline-primary mt-3">Movie Booking</a>
+                    <a href="https://tharun-26.github.io/FoodMunch-aws/" class="btn btn-outline-primary mt-3">Food Ordering</a>
+                    <a href="https://www.goibibo.com/" class="btn btn-outline-primary mt-3">Hotel/Room</a>
+                    <a href="https://www.dineout.co.in/" class="btn btn-outline-primary mt-3">Restaurants</a>
+                    <a href="https://www.olacabs.com/" class="btn btn-outline-primary mt-3">Cabs</a>
+                    <a href="https://www.abhibus.com/" class="btn btn-outline-primary mt-3">Bus</a>
+                    <a href="https://www.confirmtkt.com/" class="btn btn-outline-primary mt-3">Train</a>
+                    <a href="https://www.goindigo.in/" class="btn btn-outline-primary mt-3">Flight</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date_time" class="form-label">Date and Time</label>
+                        <input type="datetime-local" class="form-control" id="date_time" name="date_time" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="service" class="form-label">Service</label>
+                        <input type="text" class="form-control" id="service" name="service" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                </form>
+                <a href="/" class="btn btn-link mt-3">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
